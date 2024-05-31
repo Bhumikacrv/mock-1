@@ -1,0 +1,296 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link a{
+    margin:15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nav-link{
+    margin: 1% 5%;
+    display: block;
+}
+.menu{
+    display: none;
+
+}
+.landing{
+    width:1519px;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D);
+    }
+.content{
+   
+    display: flex;
+    margin: 10% 0;
+    justify-content: space-between;
+   
+}
+.para{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: -20%;
+}
+.content img{
+    width: 650px;
+    padding: 30px;
+    border-radius: 10%;
+}
+p{
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+    line-height: 30px;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.card{
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 20px;
+    border-radius: 5%;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 250px;
+}
+center h1{
+    margin-left: 25%;
+}
+input{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.intxt{
+    display: flex;
+}
+
+.intxts{
+    display: flex;
+    flex-direction: column;
+}
+.intxts input{
+    width: 655px;
+    
+}
+textarea{
+    margin: 20px;
+    width: 660px ;
+    height: 150px;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+textarea::placeholder{
+    font-size: 15px;
+}
+form{
+    height: fit-content;
+    padding:0 20px ;
+    margin-bottom: 10%;
+}
+.form img{
+    width: 650px;
+    height: 500px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    margin: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color:#ea5721;
+}
+.form-sec{
+    margin-top: 5%;
+}
+.form{
+    margin-top: 5%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    
+    
+} 
+.qlinks{
+    margin-left: 10%;
+}
+.qlinks h2{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+.links a, .links p{
+    text-decoration: none;
+    color: rgb(229, 228, 228);
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 100;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-fulid{
+    width: 100%;
+}
+.rights{
+    margin-top: 10px;
+}
+hr{
+    border: 1px solid rgb(34, 34, 34);
+}
+.pos{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+}
+.pos h1{
+    text-align: center;
+    color: white;
+}
+.pos button{
+    margin-left: 40%;
+    margin-top: 10%;
+   padding: 15px;
+}
+.landing{
+    position: relative;
+}
+@media screen and (max-width:550px) {
+    h1{
+        font-size: 20px;
+    }
+    .nav-link{
+        display: none;
+    }
+    .row{
+        padding: 10px;
+    }
+    .menu img{
+        margin: 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .content img, .content p{
+        width: 355px;
+        padding: 0;
+        margin: 0;
+    }
+   
+    .landing{
+        width:375px;
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D);
+        }
+        .para{
+            margin: 5% 0;
+        }
+        .card {
+            width: 300px;
+            height: 450px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            margin: 20px;
+            border-radius: 5%;
+        }
+       .card img {
+            margin-bottom: 20px;
+            width: 300px;
+            height: 250px;
+        }
+        .service, .form{
+            display: flex;
+            flex-direction: column;
+        }
+        .form img {
+            width: 354px;
+            height: 300px;
+            padding: 10px;
+        }
+        form{
+            padding: 0 ;
+        }
+        .intxts input {
+            width: 295px;
+        }
+        textarea{
+            width: 300px;
+        }
+        .intxt{
+            display: flex;
+            flex-direction: column;
+        }
+        .foot{
+            display: flex;
+            flex-direction: column;
+        }
+        .pos{
+            position: absolute;
+            top: 20%;
+        }
+        .pos button {
+            margin-left: 17%;
+            margin-top: 2%;
+            padding: 8px;
+        }
+}
+
